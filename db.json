@@ -1,0 +1,36 @@
+{
+   "surveyCode": "aGg43tehth43rgTw4tbMserg45DnytnGesrbr",
+   "reward":{
+        "code": "COVFEFE",
+        "description": "1 buono caffè omaggio",
+        "icon": "mug-hot"
+    },
+   "question":[
+       {
+           "type": "province",
+           "description": "In quale provincia vivi?",
+           "required": true
+       },
+       {
+           "type": "options",
+           "description": "In quale provincia vivi?",
+           "choices": ["Verbania","Torino"],
+           "required": true
+       },
+       {
+           "type": "stars",
+           "description": "Come è stato il servizio?",
+           "required": true
+       },
+       {
+           "type": "emojis",
+           "description": "Il personale era cortese?",
+           "required": true
+       },
+       {
+           "type": "question",
+           "description": "Cosa ne pensi dell'Universo?",
+           "required": false
+       }
+   ]
+}
