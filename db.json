@@ -14,9 +14,13 @@
        {
            "type": "options",
            "description": "In quale provincia vivi?",
-           "choices": [
-              "Verbania",
-              "Torino"
+           "choices": [{
+               "code": "VB",
+               "description": "Verbania"
+              },{
+               "code": "TO",
+               "description": "Torino"
+              }
            ],
            "required": true
        },
