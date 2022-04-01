@@ -14,7 +14,10 @@
        {
            "type": "options",
            "description": "In quale provincia vivi?",
-           "choices": ["Verbania","Torino"],
+           "choices": [
+              "Verbania",
+              "Torino"
+           ],
            "required": true
        },
        {
